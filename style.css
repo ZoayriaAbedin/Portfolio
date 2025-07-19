@@ -100,27 +100,6 @@ nav a:hover ,
   color: white;
   justify-content: space-between;
 }
-
-
-/*.hero h1{
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 1.2;
-}
-
-.hero h2{
-  margin-top: 20px;
-  font-size: 36px;
-  text-transform: uppercase;
-  background:linear-gradient(to right, #4acfee, #53f8c9, #6070fd, #5bbdff, #4acfee);
-  background-size: 200%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: animate-gradient 2.5s linear infinite;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-}*/
 .hero h1 {
   font-size: 72px;
   font-weight: 900;
@@ -134,12 +113,6 @@ nav a:hover ,
   letter-spacing: 1.5px;
 }
 
-
-/* .hero p{
-  max-width: 450px;
-  margin-top: 7px;
-  margin-bottom: 20px;
-} */
 .hero p {
   max-width: 550px;
   font-size: 20px;
