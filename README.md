@@ -2,16 +2,16 @@
 
 Welcome to my personal portfolio! This is a fully responsive webpage designed using only HTML and CSS, highlighting my programming journey and skills.
 
-Project Structure
+<h1>Project Structure</h1>
 
-Structure of the Website : index.html 
 
-Home section: 
+
+<h2>Home section: </h2>
 
 <img width="1806" height="917" alt="Screenshot from 2025-07-20 22-02-37" src="https://github.com/user-attachments/assets/4c86368f-1563-4009-a9a1-425bf57f0bda" />
 
-
-	1. <head> Section: 
+<h3>Structure of the Website : index.html </h3>
+	<h3> head Section: </h3> 
  Sets the viewport, title, and links external stylesheets:
         ◦ AOS for animation effects.
         ◦ Boxicons for social/media icons.
@@ -21,7 +21,8 @@ Code :
 <link rel="stylesheet" href="style.css" />
 ```
 
-	2. <video> Background: here a looping video is added as the background. 
+	<h3> video Background</h3>
+ Here a looping video is added as the background. 
 
 Code: 
 ```
@@ -32,7 +33,7 @@ Code:
 
 
 
-	3. Navigation Menu:
+	<h3>Navigation Menu</h3>
 Here the navigations menu’s are created with the tag nav. Here using section-id within the href ensures the navigation buttons links to the respective sections.
 Uses flexbox to align navigation links.
 
@@ -49,12 +50,9 @@ Code:
     </nav>
 	
 ```
-4. Hero Section:
+	<h3>Hero Section</h3>
 
 	The term comes from graphic design and advertising — where a "hero image" is the big, bold image or message that draws attention.
-
-
-
 
 
 Code: 
@@ -76,9 +74,9 @@ Left side contains an intro message with animations.
 Right side shows a circular profile image with glowing hover effects.
 
 
-Styling & Effects : style.css 
+<h2>Styling & Effects : style.css </h2>
 
-	1. Base Styles:
+	<h3>Base Styles</h3>
 Code : 
 ```
 * {
@@ -90,7 +88,7 @@ Code :
 ```
 Sets default spacing and font for a consistent layout.
 
-	2. Background Video:
+	<h3> Background Video:</h3>
 Code: 
 ```
 .back-vid {
@@ -105,7 +103,7 @@ Positioned behind all content using z-index: -1.
 
 
 
-	3. Navigation Bar:
+	<h3> Navigation Bar:</h3>
 Code: 
 ```
 nav {
@@ -118,9 +116,9 @@ nav a:hover, .active {
   text-decoration: underline;
 }
 ```
-Flexbox ensures responsive layout. Hover effects highlight the link.
+Flexbox ensures a responsive layout. Hover effects highlight the link.
 
-	4. Hero Section:
+	<h3> Hero Section</h3>
 Code: 
 ```
 .hero {
@@ -135,7 +133,7 @@ Code:
 ```
 Large text and space create a professional look. Responsive tweaks included using @media queries.
 
-	5. Profile Image:
+	<h3> Profile Image: </h3>
 Code: 
 ```
 .hero-img {
@@ -147,7 +145,8 @@ Code:
 ```
 Circular profile picture with a glowing border on hover.
 
-About me: 
+
+<h2>About me</h2>
 
 <img width="1806" height="917" alt="Screenshot from 2025-07-20 22-02-48" src="https://github.com/user-attachments/assets/d2074a9a-2c6f-48d8-9267-91e1aaa4488c" />
 
@@ -163,7 +162,7 @@ Here section tag is used to create an individual section. The id="about" allows 
 It identifies the section semantically and structurally.
 The class content-section is used to apply shared CSS styles to multiple sections. Whereas, id="about" is a unique name (used for navigation), class="content-section" applies common layout and design styles.
 
-Styling of Sections:
+<h3>Styling of Sections</h3>
 Code:
 ```
 .content-section {
