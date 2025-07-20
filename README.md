@@ -1,6 +1,6 @@
 
 
-Welcome to my personal portfolio! This is a fully responsive webpage designed using only HTML and CSS, highlighting my programming journey and skills.
+Welcome to my personal portfolio! This is a fully responsive webpage designed using only HTML and CSS, highlighting my programming journey and skills. The live page is available at https://zoayriaabedin.github.io/Portfolio/
 
 <h1>Project Structure</h1>
 
