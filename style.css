@@ -71,15 +71,7 @@ nav a:hover ,
   color : #4acfee;
   text-decoration: underline;
 }
-/* 
-.hero{
-  display: flex;
-  align-items: center;
-  height: 70%;
-  padding: 0 10%;
-  color: white;
-  justify-content: space-between;
-} */
+
 .hero {
   display: flex;
   align-items: center;
